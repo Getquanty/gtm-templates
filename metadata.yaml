@@ -1,5 +1,10 @@
 homepage: "https://www.getquanty.com"
 documentation: "https://getquanty.zendesk.com/hc/fr/articles/360016082693-Installer-le-script-GetQuanty-via-Google-Tag-Manager-GTM-"
 versions:
+  # Latest version
+  - sha: fdba8937289383eb6d9734f692f10c60c45762fe
+    changeNotes: |1
+      Fix bug with objectives and datalayer push
+  # Older versions
   - sha: fd45482015deed1e647ac7b795d26c8103f3690e
     changeNotes: Initial release.
