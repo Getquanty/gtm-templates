@@ -14,7 +14,7 @@ This is the first version of the Getquanty script template for Google Tag Manage
 3. Go to the Templates menu
 4. Create a new template
 5. In the upright corner, open the menu and chose Import
-6. Select the Getquanty.tpl file
+6. Select the template.tpl file
 7. Save and close the template editor
 8. Go to the Tags menu
 9. Create a new tag
