@@ -2,9 +2,11 @@ homepage: "https://www.getquanty.com"
 documentation: "https://getquanty.zendesk.com/hc/fr/articles/360016082693-Installer-le-script-GetQuanty-via-Google-Tag-Manager-GTM-"
 versions:
   # Latest version
-  - sha: fdba8937289383eb6d9734f692f10c60c45762fe
+  - sha: ce6daeade0c58277c73c4030f8342900f532128f
+  changeNotes: Adding restriction. Getquanty tag template for Google Tag Manager. This version of the Getquanty tag requires cookie storage and must be used only after explicit consent for personalization or marketing retargeting.
+  # Older versions
+   - sha: fdba8937289383eb6d9734f692f10c60c45762fe
     changeNotes: |1
       Fix bug with objectives and datalayer push
-  # Older versions
   - sha: fd45482015deed1e647ac7b795d26c8103f3690e
     changeNotes: Initial release.
