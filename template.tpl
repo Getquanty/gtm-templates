@@ -57,23 +57,12 @@ log('siteid =', data.site_id);
 // Inject Getquanty script
 const injectScript = require('injectScript');
 
-const url = 'https://get.smart-data-systems.com/init?site_id='+data.site_id;
+const url = 'https://get.smart-data-systems.com/gq?consent=1&site_id='+data.site_id;
 if (queryPermission('inject_script', url)) {
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 log('appel script 1');  
 }
 else log('appel refusé à '+url);
-
-
-
-// Getquanty 2nd script 
-
-const url2 = 'https://get.smart-data-systems.com/track?site_id='+data.site_id;
-if (queryPermission('inject_script', url2)) {
-injectScript(url2, data.gtmOnSuccess, data.gtmOnFailure, url2);
-log('appel script 2');  
-}
-else log('appel refusé à '+url2);
 
 
 // Appelez data.gtmOnSuccess une fois la balise terminée.
@@ -148,7 +137,7 @@ scenarios:
   code: |-
     const mockData = {
       // Mocked field values
-      site_id : '11111111'
+      site_id : '66551817'
     };
 
     // Call runCode to run the template's code.
@@ -160,4 +149,4 @@ scenarios:
 
 ___NOTES___
 
-Created on 20/11/2020 à 10:08:38
+Created on 26/04/2021, 14:13:27
